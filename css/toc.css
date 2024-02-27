@@ -1,0 +1,33 @@
+
+
+.rowtoc:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.about-item p
+{
+    margin-top: 20px;
+}
+/* hover state*/
+.about-item:hover{
+    background-color: grey;
+}
+.about-item:hover i,.about-item:hover h3, .about-item:hover p{
+    color: #fff;
+}
+.about-item:hover hr{
+    background-color: #fff;
+}
+.about-item:hover i{
+    transform: translateY(-20px)
+}
+/* soomth transition*/
+.about-item,.about-item i,.about-item hr{
+    -webkit-transition: all 400ms ease-in-out;    transition: all 400ms ease-in-out;
+}
+
+.info-car{
+      text-align: center;
+  }

@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+
+*{
+  box-sizing: border-box;
+}
+.container-fluid {
+    width: 100%;
+    padding : 0px;
+    margin: 0px;
+}
+body{
+  font-family: 'Arima Madurai', cursive;
+  padding : 0px;
+  margin: 0px;
+  overflow-x: hidden;
+
+}
+.fontlobster2 {
+  font-family: 'Lobster Two', cursive;
+}
+.fcolordb3633 {
+  color: #db3633;
+}
+.fcolordb3633 {
+  color: #db3633;
+}
+.fcolordb3633:hover {
+  color: #db3633;
+}
+.color1b1b1b{
+  background-color: #1b1b1b;
+}
+.color1b1b1btint{
+  background-color: #06060682;
+}
+.c0d0d0e{
+    color:#0d0d0e;
+}
+.c0d0d0e:hover{
+    color:white;
+}
+.fontRighteous{
+  font-family: 'Righteous', cursive;
+}
+.serviceftrhvr{
+    font-size: 90%;
+}
+.serviceftrhvr:hover{
+    color: white;
+}
+.navbar-nav .nav-item:active{
+  background-color:rgb(205, 54, 52);
+}
+.navmenu{
+  height: 70px;
+  width: 70px;
+  right: 70px;
+  top: 20px;
+  text-align: center;
+  position: absolute;
+  background: #db3633;
+  overflow: hidden;
+  transition: all 0.2s ease;
+  z-index: 999;
+  border-radius: 35px
+}
+.navmenu.active {
+  width: calc(100% - 350px);
+}
+.navmenu.active .navmenuContent * {
+  opacity: 1;
+}
+.navmenu.active span i:nth-child(1) {
+  transform: rotate(-45deg) translate(-50%, -50%);
+  top: 50%;
+}
+.navmenu.active span i:nth-child(2) {
+  transform: translateX(-100px);
+  opacity: 0;
+}
+.navmenu.active span i:nth-child(3) {
+  transform: rotate(45deg) translate(-50%, -50%);
+  top: 50%;
+}
+.navmenu span {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  background: #db3633;
+  z-index: 1;
+}
+.navmenu span i {
+  position: absolute;
+  transform-origin: 50% 50%;
+  width: 45%;
+  height: 2px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #ccc;
+  transition: transform 0.3s ease, opacity 0.1s ease 0.1s;
+}
+.navmenu span i:nth-child(1) {
+  top: 40%;
+}
+.navmenu span i:nth-child(2) {
+  top: 50%;
+}
+.navmenu span i:nth-child(3) {
+  top: 60%;
+}
+.navmenu .navmenuContent {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  line-height: 40px;
+  right: 0px;
+  text-align: center;
+}
+.navmenu .navmenuContent * {
+  opacity: 0;
+}
+.navmenu .navmenuContent ul li {
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: #0d0d0e;
+  transition: opacity 0.3s ease 0.3s;
+  cursor: pointer;
+  position: relative;
+}
+.navmenu .navmenuContent ul li:hover {
+  opacity: 0.8;
+  color:  white;
+}
+.navmenu .navmenuContent ul li:before, .navmenu .navmenuContent ul li:after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  background: #ccc;
+  transition: all 0.3s ease;
+}
+.navmenu .navmenuContent ul li:before {
+  transform: rotate(-55deg);
+  left: 60px;
+  top: -30px;
+  opacity: 0;
+  right: 0;
+  margin: auto;
+}
+.navmenu .navmenuContent ul li:after {
+  transform: rotate(-55deg);
+  left: -60px;
+  bottom: -30px;
+  opacity: 0;
+  right: 0;
+  margin: auto;
+}
+
+.card-img-overlay-kira {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.25rem;
+}
+.card-img-overlay-backgroundcolor{
+  background-color: #0a0a0a4d;
+}
+
+.scard:hover{
+    background-color: #1b1b1b;
+    transition-duration: 400ms;
+    color: white;
+}
+
+
